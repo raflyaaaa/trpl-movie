@@ -53,7 +53,7 @@ $('#movie-list').on('click', '.see-detail', function(e) {
     e.preventDefault();
 
     $.ajax({
-        url: 'http://www.omdbapi.com/',
+        url: 'https://www.omdbapi.com/',
         dataType: 'json',
         type: 'get',
         data: {
